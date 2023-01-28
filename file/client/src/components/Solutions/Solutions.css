@@ -1,0 +1,48 @@
+#container4{
+    padding-top: 3rem;
+    display: flex;
+    padding-bottom: 3rem;
+}
+#section4{
+    background-color: white;
+}
+#container4 img{
+    padding-top: 3rem;
+    width: 200%;
+}
+.middle{
+    padding-left: 20rem;
+    padding-top: 6rem;
+}
+.middle h2{
+    width: 20rem;
+}
+#span2{
+    font-weight: 800;
+}
+.third h3{
+    height: 2rem;
+    text-align: center;
+    padding-top: .3rem;
+    border: 1px solid grey;
+    width: 18rem;
+    border-radius: .5rem;
+    color: black;
+    font-size:16px ;
+    font-weight: 400;
+    line-height: 24px;
+}
+.up{
+   
+    background-color:#F8F9FA ;
+    height: 12rem;
+}
+.third p{
+    width: 17rem;
+    margin-left: .2rem;
+    color: grey;
+}
+.third{
+    padding-top: 5rem;
+    padding-left: 2rem;
+}

@@ -1,0 +1,39 @@
+#section4{
+    background-color: grey;
+    padding-bottom: 3rem;
+}
+
+.card3{
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    width: 22rem;
+    height: 15rem;
+}
+.card-head{
+    display: flex;
+}
+.card-head img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+}
+
+.card-head p{
+    
+    line-height: 16px;
+    padding-left: 1rem;
+}
+.card3 .card-body{
+    padding-top: 2rem;
+    line-height: 15px;
+}
+#section4 h2{
+    color: rgb(54, 77, 89);
+    padding-top: 5rem;
+    font-weight: 700;
+    text-align: center;
+}

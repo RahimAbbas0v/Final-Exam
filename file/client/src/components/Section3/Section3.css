@@ -1,0 +1,33 @@
+.leftside{
+    display: flex;
+}
+#container3{
+    display: flex;
+}
+.leftside{
+    margin: 1rem;
+}
+.leftside img{
+    width:80%;
+    gap: 20px;
+    margin: 0%;
+}
+.rightside{
+    padding-top: 6rem;
+    width: 26rem;
+}
+#section3{
+    padding-top: 4rem;
+    background-color: white;
+}
+.rightside p{
+    color: grey;
+}
+.rightside button{
+    border: none;
+    margin-top: 1.6rem;
+    background-color: #FEE2B3;
+    color: black;
+    width: 19rem;
+    height: 3.3rem;
+}

@@ -1,0 +1,48 @@
+.navbar{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 15px;
+    display: flex;
+    background-color: #FEE2B3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.navbar #link{
+    text-decoration: none;
+    color: inherit;
+}
+.list{
+    padding-top: .6rem;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+#toggler,
+.navbar label{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .menu{
+        overflow: hidden;
+        max-height: 0;
+        width: 100%;
+    }
+    .list{
+        align-items:    center;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .navbar label{
+        align-items: center;
+        display: inline-flex;
+        cursor: pointer;
+    }
+    #toggler:checked~.menu{
+        max-height: 100%;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+}

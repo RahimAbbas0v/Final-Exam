@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+*{
+    font-family: 'Playfair Display', serif;
+}
+header{
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp");
+    height: 93vh;
+}
+#container{
+    display: flex;
+}
+.left h2{
+    padding-top: 19rem;
+    padding-left: 5rem;
+    width: 30rem;
+    color: white;
+    font-weight:900 ;
+    line-height:60px ;
+    font-size:50px ;
+}
+.left p{
+    font-weight:300 ;
+    line-height:26px ;
+    font-size:16px ;
+    color: white;
+    width: 32rem;
+    padding-left: 5rem;
+
+}
+#form{
+    margin-top: 12rem;
+    margin-left: 10rem;
+    background-color: white;
+    height: 25rem;
+    width: 25rem;
+    border-radius: .5rem;
+   
+}
+#form input{ text-align: center;
+    margin-top: 1.6rem;
+    height: 3.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 19rem;
+}
+#form h3{
+    padding-top: 2rem;
+   padding-left: 3.1rem;
+    text-align: left;
+    font-weight:300 ;
+    line-height:24px ;
+    font-size:20px ;
+}
+#form button{
+    border: none;
+    margin-top: 1.6rem;
+    background-color: #FEE2B3;
+    color: black;
+    margin-left: 3rem;
+    width: 19rem;
+    height: 3.3rem;
+}

@@ -1,0 +1,12 @@
+footer{
+    background-image: url("https://preview.colorlib.com/theme/notary/images/hero_bg_1.jpg.webp");
+    height: 40vh;
+    background-position: center center;
+}
+footer p{
+    padding-top: 14rem;
+    text-align: center;
+}
+#heart{
+    color: red;
+}

@@ -1,0 +1,51 @@
+#container2 h2{
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 32px;
+    font-weight:700 ;
+    line-height: 38px;
+}
+#section2{
+    background-color: #F8F9FA;
+    padding-bottom: 3rem;
+}
+#container2{
+    padding-left: 2%;
+}
+
+#span{
+    
+    color: grey;
+}
+ #info{
+     text-align: center;
+    color: grey;
+
+}
+.col-4{
+    flex-wrap: wrap;
+}
+.card{
+    margin: 1rem;
+    flex-wrap: wrap;
+    border-color: white;
+    width: 26rem;
+    height: 19rem;
+    border-radius: 0;
+}
+.card img{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    width: 30%;
+}
+.card-body h2{
+    padding-right: 8rem;
+    margin-top: -4rem;
+}
+.card-body p{
+    font-size: 0.9rem;
+}
+#search{
+    margin-left: 32rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,18 @@
+#addform{
+    margin-left: auto;
+    margin-left: auto;
+    justify-content: center;
+    text-align: center;
+}
+#addform input{
+    margin-top: 1.6rem;
+}
+#addform button{
+    margin-top: 1.6rem;
+    color: white;
+    background-color: black;
+    width: 12rem;
+}
+h1{
+    text-align: center;
+}
