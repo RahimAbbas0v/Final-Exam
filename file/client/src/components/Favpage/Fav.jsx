@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../../context/favitems";
-
+import { Helmet } from "react-helmet";
 function Fav() {
   const { fav, setFav } = useContext(Context);
   const handledelete=(id)=>{
@@ -10,7 +10,14 @@ function Fav() {
       setFav(delitem)
   }
   return (
-    <><div className="container">
+    <>
+     <Helmet>
+        <meta charSet="utf-8" />
+        <title>Favorite Page</title>
+        <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUEEybzjp8yK_qgIBuTq_h-fiSOssdw-QqXQ&usqp=CAU" />
+        
+      </Helmet>
+    <div className="container">
         <h2 style={{textAlign:"center"}}>YOUR FAVORITE PRODUCTS</h2>
       <div className="row">
         {fav.map((item, index) => (
